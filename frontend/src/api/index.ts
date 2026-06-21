@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://localhost:8000/api';
+const API_URL = 'https://parking-impact-intelligence-platform.onrender.com/api';
 
 export const fetchKPIs = async () => {
   const res = await axios.get(`${API_URL}/kpis`);
