@@ -1,5 +1,5 @@
 import { GlassCard } from '../components/GlassCard';
-import { Database, Binary, Hexagon, Gauge, BellRing, Cpu, LayoutDashboard, ArrowDown, Clock, UserCheck } from 'lucide-react';
+import { Database, Hexagon, Gauge, BellRing, Cpu, LayoutDashboard, ArrowDown, UserCheck } from 'lucide-react';
 import { motion } from 'framer-motion';
 
 interface FlowStep {
