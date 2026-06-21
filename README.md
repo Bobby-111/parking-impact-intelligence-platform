@@ -34,6 +34,22 @@ The platform processes data through a strict operational funnel:
 5. **OPS Optimization** [38 Priority Deployments]
 6. **Resource Allocation** [10 Officer Assignments]
 
+```mermaid
+flowchart TD
+    A("298,445 Raw Violation Records") --> B("2,534 H3 Spatial Cells")
+    B --> C("153 Persistent Risk Zones")
+    C --> D("128 Critical Zones")
+    D --> E("38 Priority Deployments")
+    E --> F("10 Officer Assignments")
+    
+    style A fill:#0B1020,stroke:#38bdf8,stroke-width:2px,color:#fff
+    style B fill:#0B1020,stroke:#38bdf8,stroke-width:2px,color:#fff
+    style C fill:#0B1020,stroke:#8b5cf6,stroke-width:2px,color:#fff
+    style D fill:#0B1020,stroke:#ef4444,stroke-width:2px,color:#fff
+    style E fill:#0B1020,stroke:#10b981,stroke-width:2px,color:#fff
+    style F fill:#0B1020,stroke:#f59e0b,stroke-width:2px,color:#fff
+```
+
 ---
 
 ## 💡 Innovation & Key Results
